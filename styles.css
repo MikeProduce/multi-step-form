@@ -1,0 +1,74 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 85vh; */
+}
+
+svg {
+    position: fixed;
+    top: 0;
+}
+
+.FORM_CONTAINER {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    color: hsl(213, 96%, 18%);
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    /* add this */
+    background-color: white;
+    z-index: 1;
+    margin-top: 100px;
+}
+
+.INFORMATION_INPUT {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    max-width: 100%;
+    height: 20px;
+    margin: 5px 0px 10px 0px;
+    border-radius: 5px;
+    border: 1px solid hsl(213, 96%, 18%);
+    padding: 17px 10px 17px 10px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.BUTTONS {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: left;
+    padding: 20px;
+}
+
+.BUTTON_SUB {
+    background-color: hsl(213, 96%, 18%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px 12px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
